@@ -5,6 +5,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "build": "yarn workspaces foreach -vpt run build"
+  },
   "devDependencies": {
     "eslint": "^8.15.0",
     "prettier": "^2.6.2",
