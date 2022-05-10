@@ -160,6 +160,8 @@ Fix:
 ```bash
 cd packages/common
 yarn init -p
+yarn run tsc --init
+yarn run eslint --init
 cd packages/web
 yarn add common
 ```
@@ -171,4 +173,11 @@ web/package.json
     //...
     "common": "workspace:^",
   },
+```
+
+### 7. import yarn plugins
+
+```shell
+yarn plugin import typescript
+yarn plugin import workspace-tools
 ```
