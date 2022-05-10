@@ -154,3 +154,21 @@ Fix:
     "test": "react-scripts test --runInBand",
   },
 ```
+
+### 6. Share code in workspace
+
+```bash
+cd packages/common
+yarn init -p
+cd packages/web
+yarn add common
+```
+
+web/package.json
+
+```json
+  "dependencies": {
+    //...
+    "common": "workspace:^",
+  },
+```

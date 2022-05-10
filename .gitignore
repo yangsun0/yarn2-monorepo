@@ -9,3 +9,11 @@
 # Documentation here: https://yarnpkg.com/features/zero-installs
 !.yarn/cache
 #.pnp.*
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+node_modules/
+build/
+dist/
+
+tsconfig.tsbuildinfo
