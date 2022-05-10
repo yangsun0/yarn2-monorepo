@@ -20,8 +20,8 @@ yarn -v
 ### 2. Setup editor
 
 ```
-yarn add -D typescript 
-yarn add -D prettier 
+yarn add -D typescript
+yarn add -D prettier
 yarn add -D eslint
 yarn dlx @yarnpkg/sdks vscode
 
@@ -34,4 +34,15 @@ yarn dlx @yarnpkg/sdks vscode
 ➤ YN0000: ┌ Generating settings
 ➤ YN0000: │ ✓ Vscode (new ✨)
 ➤ YN0000: └ Completed
+```
+
+### 3. VSCode auto save
+
+```json
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
 ```
