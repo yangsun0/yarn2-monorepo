@@ -46,3 +46,9 @@ yarn dlx @yarnpkg/sdks vscode
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
 ```
+
+### 4. create-react-app
+
+```
+yarn create react-app web --template typescript
+```
