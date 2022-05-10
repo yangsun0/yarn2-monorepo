@@ -16,3 +16,22 @@ yarn -v
 
 3.2.0
 ```
+
+### 2. Setup editor
+
+```
+yarn add -D typescript 
+yarn add -D prettier 
+yarn add -D eslint
+yarn dlx @yarnpkg/sdks vscode
+
+➤ YN0000: ┌ Generating SDKs inside .yarn/sdks
+➤ YN0000: │ ✓ Eslint
+➤ YN0000: │ ✓ Prettier
+➤ YN0000: │ ✓ Typescript
+➤ YN0000: │ • 3 SDKs were skipped based on your root dependencies
+➤ YN0000: └ Completed
+➤ YN0000: ┌ Generating settings
+➤ YN0000: │ ✓ Vscode (new ✨)
+➤ YN0000: └ Completed
+```
