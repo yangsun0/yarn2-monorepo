@@ -6,7 +6,8 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "yarn workspaces foreach -vpt run build"
+    "build": "yarn workspaces foreach -vpt run build",
+    "start": "yarn workspaces foreach -vpti run start"
   },
   "devDependencies": {
     "eslint": "^8.15.0",
