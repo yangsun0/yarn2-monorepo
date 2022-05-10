@@ -7,7 +7,8 @@
   ],
   "scripts": {
     "build": "yarn workspaces foreach -vpt run build",
-    "start": "yarn workspaces foreach -vpti run start"
+    "start": "yarn workspaces foreach -vpti run start",
+    "test": "CI=true yarn workspaces foreach -vpt run test"
   },
   "devDependencies": {
     "eslint": "^8.15.0",
