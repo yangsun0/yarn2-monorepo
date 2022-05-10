@@ -1,4 +1,6 @@
-# yarn2-monorepo
+# yarn2 monorepo
+
+[![build](https://github.com/yangsun0/yarn2-monorepo/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/yangsun0/yarn2-monorepo/actions/workflows/build.yml)
 
 ### 0. check yarn version
 
